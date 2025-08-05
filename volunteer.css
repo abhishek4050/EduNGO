@@ -36,6 +36,7 @@ align-items: center;
     margin:  0.5rem 0;
     width: 100%;
     box-sizing: border-box;
+    color: black;
 }
 .div-input-email-phone{
  display: flex;
