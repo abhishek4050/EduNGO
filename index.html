@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="volunteer.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="media-hero.css">
+    <link rel="stylesheet" href="media-volunteer.css">
+    <link rel="stylesheet" href="media-about.css">
+    
+</head>
+
+<body>
+    <!-- main container  -->
+    <div class="containerr">
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg bg-dark position-fixed w-100">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-light" href="#">EduNGO </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-secondary" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-secondary" href="#volunteer">Volunteer</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section  -->
+        <div class="hero">
+            <div class="hero-container">
+                <h1 class="hero-heading ">EDUCATION FOR ALL</h1>
+                <br>
+                <h5>Empowering children through education can change the world </h4>
+                    <button class="hero-btn">GET INVOLVED</buton>
+            </div>
+        </div>
+        <!-- volunteer form  -->
+        <div id="volunteer" class="div-div">
+            <div class="volunteer-form">
+                <h1 style="margin: 2rem 0;">Volunteer Form</h1>
+                <form action="index.html">
+                    <div class="form-name">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter Name" id="name" class="form-input ">
+                    </div>
+                    <div class="form-email-phone">
+                        <div class="div-input-email-phone">
+                            <label for="Email"> Email</label>
+                            <input type="email" placeholder="Email" id="Email" class="form-input f-email-phone">
+                        </div>
+                        <div class="div-input-email-phone">
+                            <label for="phone"> Phone</label>
+                            <input type="number" placeholder="Phone" id="phone" class="form-input f-email-phone">
+                        </div>
+                    </div>
+                    <div class="form-why">
+                        <label for="why">Why do you want to volunteer?</label><br>
+                        <input type="text" placeholder="Enter reason" id="why" class="form-input f-why">
+                    </div>
+                    <button class="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- about us  -->
+        <div id="about-us">
+            <h1>ABOUT US</h1>
+            <div class="about-us-inner-div">
+                <div class="contain">
+                    <div class="col col-1">
+                       
+                    </div>
+                    <div class="col col-2">
+                        <div class="about-para">
+                            <p class="text-center ">
+                                EduNGO was founded in 2020 with a mission to bring education to every child, especially
+                                those from underprivileged backgrounds.
+                            </p>
+                            <p class="text-center lead">
+                                From running free weekend classes to donating books and building community learning
+                                centers,
+                                we strive to create equal opportunities for learning.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-extras">
+                <div class="icons">
+                <i class="fa-solid fa-book">
+                    <p>Free Classes </p>
+                </i>
+                <i class="fa-solid fa-heart-circle-plus">
+                    <p>Book Donation</p>
+                </i>
+                <i class="fa-solid fa-school">
+                    <p>Building Schools</p>
+                </i>
+                </div>
+                
+            </div>
+            <div class="moto">
+                <p class="text-center fst-italic">
+                        “Education is not a privilege, it's a right.”
+                        </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
